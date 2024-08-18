@@ -94,7 +94,7 @@ let coins;
 let longMode = false;
 let quirksMode = false;
 let enableExperimentalFeatures = window.location.hostname==='localhost';
-let screenShake = true;
+let screenShake = false;
 let screenFlashes = true;
 let frameRateThrottling = true;
 let slowTintsEnabled = true;
@@ -274,7 +274,7 @@ function tileAt(j, i, y) {
 
 // Load Level Data
 function loadLevels() {
-	levelCount = 53;
+	levelCount = 43;
 	levels = new Array(levelCount);
 	startLocations = new Array(levelCount);
 	bgs = new Array(levelCount);
